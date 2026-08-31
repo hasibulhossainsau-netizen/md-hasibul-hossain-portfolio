@@ -24,7 +24,7 @@ export function SiteHeader() {
             <Dna className="h-4 w-4" aria-hidden="true" />
           </span>
           <span className="text-foreground">
-            MD Hasibul <span className="text-primary">Hossain</span>
+            Md Hasibul <span className="text-primary">Hossain</span>
           </span>
         </a>
 

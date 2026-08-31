@@ -78,7 +78,7 @@ export function SiteFooter() {
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-border/60 pt-8 sm:flex-row sm:items-center">
           <p className="font-mono text-sm text-foreground">
-            MD Hasibul <span className="text-primary">Hossain</span>
+            Md Hasibul <span className="text-primary">Hossain</span>
           </p>
           <p className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} · Computational Biology · One Health
