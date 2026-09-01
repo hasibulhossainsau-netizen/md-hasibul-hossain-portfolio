@@ -11,12 +11,12 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
-    name: 'Let_it_flow',
-    focus: 'CRISPR/Cas9 Guide Design',
+    name: 'amr_pipeline_proto',
+    focus: 'AMR Genomics Pipeline',
     description:
-      'A pipeline for designing high-specificity CRISPR/Cas9 guide RNAs with integrated off-target scoring and ranking.',
-    tags: ['CRISPR', 'Python', 'Off-target Analysis'],
-    repoUrl: 'https://github.com/hasibulhossainsau-netizen/Let_it_flow',
+      'A reproducible Snakemake pipeline for detecting antimicrobial resistance genes across bacterial genomes.',
+    tags: ['Snakemake', 'RGI', 'ResFinder'],
+    repoUrl: 'https://github.com/hasibulhossainsau-netizen/amr_pipeline_proto',
   },
   {
     name: 'Ekaghni_strikes',
@@ -27,12 +27,12 @@ const PROJECTS: Project[] = [
     repoUrl: 'https://github.com/hasibulhossainsau-netizen/Ekaghni_strikes',
   },
   {
-    name: 'amr_pipeline_proto',
-    focus: 'AMR Genomics Pipeline',
+    name: 'Let_it_flow',
+    focus: 'CRISPR/Cas9 Guide Design',
     description:
-      'A reproducible Snakemake pipeline for detecting antimicrobial resistance genes across bacterial genomes.',
-    tags: ['Snakemake', 'RGI', 'ResFinder'],
-    repoUrl: 'https://github.com/hasibulhossainsau-netizen/amr_pipeline_proto',
+      'A pipeline for designing high-specificity CRISPR/Cas9 guide RNAs with integrated off-target scoring and ranking.',
+    tags: ['CRISPR', 'Python', 'Off-target Analysis'],
+    repoUrl: 'https://github.com/hasibulhossainsau-netizen/Let_it_flow',
   },
 ]
 

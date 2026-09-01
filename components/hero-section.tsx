@@ -24,9 +24,9 @@ function LinkedinIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 const STATS = [
-  { value: '3.68', suffix: '/4.00', label: 'Academic CGPA', subtext: "Dean's List Eligible" },
+  { value: '3.68', suffix: '/4.00', label: 'Academic CGPA', subtext: "Dean's List Eligiblegi" },
   { value: '7.5', suffix: '', label: 'IELTS Overall', subtext: 'L 8.0 | R 8.5 | W 6.5 | S 7.0' },
-  { value: '3+', suffix: '', label: 'Research Projects', subtext: 'Computational Genomics' },
+  { value: '3', suffix: '', label: 'Featured Projects', subtext: 'Computational Genomics' },
   { value: '1', suffix: '', label: 'Q1 Publication', subtext: 'Co-Author (6th)' },
 ]
 
