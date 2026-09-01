@@ -29,7 +29,7 @@ const GROUPS: SkillGroup[] = [
     items: ['IEDB', 'NetMHC', 'ClusPro', 'AllerTOP'],
   },
   {
-    title: 'Structural Bio',
+    title: 'Structural Bioinformatics',
     icon: Boxes,
     items: ['AlphaFold', 'PyMOL', 'GROMACS', 'AutoDock'],
   },
@@ -45,7 +45,7 @@ export function SkillsSection() {
     <section id="cv" className="border-t border-border/60">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
         <p className="font-mono text-xs uppercase tracking-widest text-primary">Technical Skills</p>
-        <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">The computational &amp; laboratory toolkit</h2>
+        <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Research &amp; Technical Skills</h2>
 
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {GROUPS.map((group) => {
