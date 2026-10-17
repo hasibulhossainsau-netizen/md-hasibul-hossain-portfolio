@@ -43,22 +43,22 @@ export function ProjectsSection({ sectionId = 'projects' }: { sectionId?: string
         <p className="font-mono text-xs uppercase tracking-widest text-primary">Selected Work</p>
         <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Computational pipelines &amp; software</h2>
 
-        <div className="mt-12 grid gap-4 md:grid-cols-3">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {PROJECTS.map((project) => (
             <article
               key={project.name}
-              className="group flex flex-col rounded-xl border border-border bg-card/50 p-6 transition-colors hover:border-primary/40"
+              className="group flex min-w-0 flex-col rounded-xl border border-border bg-card/50 p-6 transition-colors hover:border-primary/40"
             >
               <span className="w-fit rounded-full border border-border bg-secondary/50 px-2.5 py-1 font-mono text-[11px] uppercase tracking-wide text-muted-foreground">
                 {project.focus}
               </span>
 
-              <h3 className="mt-4 flex items-center gap-2 font-mono text-lg font-medium text-foreground">
+              <h3 className="mt-4 min-w-0 font-mono text-lg font-medium text-foreground">
                 <a
                   href={project.repoUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 hover:text-primary transition-colors"
+                  className="inline-flex max-w-full items-center gap-2 break-words transition-colors hover:text-primary"
                 >
                   {project.name}
                   <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-primary" aria-hidden="true" />

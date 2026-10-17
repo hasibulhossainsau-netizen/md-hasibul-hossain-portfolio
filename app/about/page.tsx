@@ -169,10 +169,35 @@ function AboutHero() {
           Bridging veterinary medicine and microbiology with computational biology.
         </h1>
         <p className="mt-6 max-w-3xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-          My background in animal science & veterinary medicine and currently persuing a master's degree
-          in microbiology. I bring my veterinary experience with computational biology, genomics,
-          and biomolecular simulations to investigate infectious disease and pathogen biology.
+          My background is in animal science and veterinary medicine, and I am currently pursuing
+          a master&apos;s degree in microbiology. I combine veterinary experience with computational
+          biology, genomics, and biomolecular simulations to investigate infectious disease and
+          pathogen biology.
         </p>
+      </div>
+    </section>
+  )
+}
+
+function MotivationSection() {
+  return (
+    <section className="border-t border-border/60">
+      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+        <div className="max-w-3xl rounded-2xl border border-primary/20 bg-primary/[0.04] p-6 sm:p-8">
+          <p className="font-mono text-xs uppercase tracking-widest text-primary">
+            The person behind the research
+          </p>
+          <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">
+            Why I Do This Work
+          </h2>
+          <p className="mt-4 leading-relaxed text-muted-foreground">
+            Veterinary science taught me that disease is never just a sequence or a statistic—it
+            affects animals, the people who care for them, and the communities we share. Microbiology
+            helps me ask how pathogens work, while computational biology gives me ways to explore
+            those questions at scale. Bringing these fields together is how I hope to make research
+            more useful for animal and public health.
+          </p>
+        </div>
       </div>
     </section>
   )
@@ -294,6 +319,7 @@ export default function AboutPage() {
   return (
     <main>
       <AboutHero />
+      <MotivationSection />
       <ResearchInterestsSection />
       <TechnicalSkillsSection />
       <ExperienceTimeline />
