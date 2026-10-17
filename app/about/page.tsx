@@ -191,7 +191,7 @@ function MotivationSection() {
             Why I Do This Work
           </h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            Veterinary science taught me that disease is never just a sequence or a statistic—it
+            Veterinary science taught me that disease is never just a sequence or a statistic. It
             affects animals, the people who care for them, and the communities we share. Microbiology
             helps me ask how pathogens work, while computational biology gives me ways to explore
             those questions at scale. Bringing these fields together is how I hope to make research
