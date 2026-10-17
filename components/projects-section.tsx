@@ -36,12 +36,12 @@ const PROJECTS: Project[] = [
   },
 ]
 
-export function ProjectsSection() {
+export function ProjectsSection({ sectionId = 'projects' }: { sectionId?: string }) {
   return (
-    <section id="projects" className="border-t border-border/60">
+    <section id={sectionId} className="border-t border-border/60">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
         <p className="font-mono text-xs uppercase tracking-widest text-primary">Selected Work</p>
-        <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Research projects</h2>
+        <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Computational pipelines &amp; software</h2>
 
         <div className="mt-12 grid gap-4 md:grid-cols-3">
           {PROJECTS.map((project) => (

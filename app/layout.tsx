@@ -1,6 +1,8 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
+import { Footer } from '@/components/Footer'
+import { Navbar } from '@/components/Navbar'
 import './globals.css'
 
 const inter = Inter({
@@ -35,7 +37,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`dark bg-background ${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="font-sans antialiased">
+        <Navbar />
         {children}
+        <Footer />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

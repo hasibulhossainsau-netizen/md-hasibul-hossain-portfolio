@@ -44,11 +44,11 @@ const PUBLICATIONS: Publication[] = [
   },
 ]
 
-export function PublicationsSection() {
+export function PublicationsSection({ sectionId = 'publications' }: { sectionId?: string }) {
   return (
-    <section id="publications" className="border-t border-border/60">
+    <section id={sectionId} className="border-t border-border/60">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
-        <p className="font-mono text-xs uppercase tracking-widest text-primary">Publications</p>
+        <p className="font-mono text-xs uppercase tracking-widest text-primary">Research Papers &amp; Studies</p>
         <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Peer-reviewed &amp; in progress</h2>
 
         <ul className="mt-12 divide-y divide-border/60 overflow-hidden rounded-xl border border-border bg-card/50">
